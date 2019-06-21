@@ -8,18 +8,36 @@
   <title>Document</title>
 </head>
 <body>
-  <ul>
+  <ol>
     <li>
-      <p>Устанавливаем удаленный репозиторий локально</p>
-      <code>git remote add origin git@github.com:AndreyRadyshevskiy/git-test.git</code>
-      <p>Отправляем на сервер</p>
-      <code>git push -u origin master</code>
+      <h3>Работа с удаленным репозиторием</h3>
+      <ul>
+        <li>
+          <p>Клонируем из удаленного репозитория</p>
+          <code>git clone git@github.com:trevordmiller/utility-functions.git</code>
+        </li>
+        <li>
+          <p>Устанавливаем удаленный репозиторий локально</p>
+          <code>git remote add origin git@github.com:AndreyRadyshevskiy/git-test.git</code>
+        </li>
+        <li>
+          <p>Отправляем на сервер</p>
+          <code>git push -u origin master</code>
+        </li>
+        <li>
+          <p>Отправляем коммит на сервер</p>
+          <code>git push</code>
+        </li>
+        <li>
+          <p>Скачиваем с сервера</p>
+          <code>git pull тоже самое что и git fetch && git merge</code>
+        </li>
+      </ul>
     </li>
     <li>
-      <p>Клонируем из удаленного репозитория</p>
-      <code>git clone git@github.com:trevordmiller/utility-functions.git</code>
+      
     </li>
-  </ul>
+  </ol>
   
   <script src="index.js"></script>
 </body>
